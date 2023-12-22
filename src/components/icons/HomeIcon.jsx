@@ -1,4 +1,4 @@
-export const CancelIcon = ({ width = 24, height = 24, ...props }) => {
+export const HomeIcon = ({ width = 24, height = 24, ...props }) => {
   return (
     <svg
       width={width}
@@ -12,8 +12,9 @@ export const CancelIcon = ({ width = 24, height = 24, ...props }) => {
       {...props}
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <path d="M18 6l-12 12" />
-      <path d="M6 6l12 12" />
+      <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+      <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+      <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
     </svg>
   )
 }

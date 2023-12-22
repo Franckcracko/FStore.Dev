@@ -1,4 +1,4 @@
-export const CartICon = ({ width = 24, height = 24 }) => {
+export const CartICon = ({ width = 24, height = 24, ...props }) => {
   return (
     <svg
       width={width}
@@ -9,6 +9,7 @@ export const CartICon = ({ width = 24, height = 24 }) => {
       fill="none"
       strokeLinecap="round"
       strokeLinejoin="round"
+      {...props}
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
